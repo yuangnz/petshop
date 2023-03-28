@@ -191,18 +191,13 @@ section .btn p {
   color: gray;
   font-size: 25px;
 }
-.Clothes {
-  padding-left: 5%;
-}
-.Food {
-  padding-left: 5%;
-}
 
 .about .clothes_box {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 15px;
+  justify-items: center;
 }
 
 .about .clothes_box .clothes_card {
@@ -354,10 +349,14 @@ button[type="submit"]:hover {
   background-color: #0069d9;
 }
 /* CSS */
+.new{
+    padding-bottom: 5%;
+}
 
 .news-section {
   max-width: 800px;
   margin: 0 auto;
+  padding-bottom: 10%;
   padding: 50px 0;
   font-family: Arial, sans-serif;
 }
@@ -398,9 +397,6 @@ button[type="submit"]:hover {
   background-color: #0069d9;
 }
 
-#contact {
-    padding-top: 200px;
-}
 
 /* CSS */
 
